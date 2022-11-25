@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(255, 238, 205);
+  font-family: "Times New Roman", Times, serif;
+}
+
+article {
+  background-color: rgb(254, 255, 211);
+  max-width: 800px;
+
+  padding: 20px 35px;
+  margin: 20px;
+}
+
+header {
+  max-width: 800px;
+  background-color: rgb(255, 227, 148);
+  padding: 10px 35px;
+  margin: 20px;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  margin: auto;
+}
+
+li {
+  text-align: start;
+}
+
+h2,
+h3,
+h4 {
+  color: rgb(163, 120, 0);
+}
+
+p {
+  text-align: justify;
+}
+
+#subtitle {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  img {
+    height: auto;
+    width: 95%;
+  }
+}
